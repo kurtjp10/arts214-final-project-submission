@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  
+  
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+  
+<link href="style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+  
+<body>
+<div id="page">
+<div id="heading">
+<h1>
+<center><img src= "https://feonixworks.neocities.org/imgs/FenixWBrand.png"></center>
+</h1></div>
+<br>
+<br>
+
+<div id= "nav-bar" interactive>
+  <ul>
+    <li><a href="https://feonixworks.neocities.org/Contact.html">Contact</a></li>
+    <li><a href="https://feonixworks.neocities.org/Resume.html">Resume</a></li>
+    <li><a href="https://feonixworks.neocities.org/gallery.html">Gallery</a></li>
+    <li style="float:left"><a href="https://feonixworks.neocities.org/">Home</a></li>
+  </ul>
+</div>
+
+<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+ 
+<br><br><br><br><br>
+
+<div class="w3-content w3-display-container">
+<center>
+<img class="mySlides" src="https://feonixworks.neocities.org/imgs/ParkourKaatoVec.jpg" style="width:900px;height:600px;">
+<img class="mySlides" src="https://feonixworks.neocities.org/imgs/Branding_FinalPresentation.jpg" style="width:900px;height:600px;">
+<img class="mySlides" src="https://feonixworks.neocities.org/imgs/BusMockup.jpg" style="width:900px;height:600px;">
+
+
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+	
+</div>
+
+  </body>
+</html>
